@@ -615,6 +615,10 @@ footer span a:hover{
 	.max-width{
 		padding: 0 23px;
 	}
+	.menu-btn{
+		display: block;
+		z-index: 999;
+	}
 	.services .service-content .card{
 		width: 100%;
 
@@ -625,6 +629,10 @@ footer span a:hover{
 @media (max-width: 500px){
 	.contact .right form .fields{
 		flex-direction: column;
+	}
+	.menu-btn{
+		display: block;
+		z-index: 999;
 	}
 	.contact .right form .name,
 	.contact .right form .email{
